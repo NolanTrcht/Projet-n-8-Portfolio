@@ -1,0 +1,100 @@
+.skills-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+ 
+
+.skills-title{
+  color: var(--primary-color);
+  font-family: "Poppins";
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-title);
+  padding: 20px 0;
+}
+
+.skills-text{
+    font-family: var(--font-family-text);
+    font-size: var(--font-size-text);
+    padding: 0 0 20px 0;
+}
+
+.skills-progress_div{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-progress_barre{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 80%;
+  height: auto;
+  margin: 15px 0;
+}
+
+.skills-progress_icon{
+    width: 55px;
+}
+
+.skills-progress_span{
+  display: block;
+  width: 80%;
+  height: 30px;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid var(--border-color);
+  position: relative;
+  overflow: hidden;
+}
+
+.skills-progress_text{
+  font-family: var(--font-family-title);
+  font-size: 1em;
+  font-weight: 200;
+}
+ 
+
+.skills-progress_span::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:var(--secondary-color);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 2.5s ease ;
+}
+
+ /*Effet d'extensions des barres */
+.skills-progress_span.show-1::before{ 
+  transform: scaleX(0.95);
+  background-color: orange;
+}
+.skills-progress_span.show-2::before{ 
+  transform: scaleX(0.9);
+  background-color: rgb(70, 70, 252);
+}
+.skills-progress_span.show-3::before{ 
+  transform: scaleX(0.8);
+  background-color: var(--secondary-color);
+}
+.skills-progress_span.show-4::before{ 
+  transform: scaleX(0.7);
+  background-color: rgb(227, 227, 62)
+}
+.skills-progress_span.show-5::before{ 
+  transform: scaleX(0.6);
+  background-color: green;
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id" : "0",
+    "title": "Création d'un site de location immobilière",
+    "skills": ["React"],
+    "description": "Grâce à React, créer un site de location permettant de visualiser et d'accéder à toutes les informations concernant les logements",
+    "github": "https://github.com/NolanTrcht/Projet-n-5-Creez-une-application-web-de-location-immobiliere-avec-React.git",
+    "pictures": ["/React.jpg"]
+  },
+  {
+    "id" : "1",
+    "title": "Creez une page web dynamique",
+    "skills": ["Javascript"],
+    "description": "Récupérer les données utilisateurs dans le JavaScript via des formulaires. Gérer les événements utilisateurs et manipuler les éléments du DOM avec JavaScript",
+    "github": "https://github.com/NolanTrcht/Projet-n-3-Creez-une-page-web-dynamique-avec-Javascript.git",
+    "pictures": ["/profil.png"]
+  },
+  {
+    "id" : "2",
+    "title": "Développez le backend d'un site de notation de livre",
+    "skills": ["MongoDB", "Node.js", "Mongoose"],
+    "description": "Implémenter un modèle logique de données conformément à la réglementation. Mettre en œuvre des opérations CRUD ainsi que stocker des données de manière sécurisée",
+    "github": "https://github.com/NolanTrcht/Projet-n-6-Developpez-le-backend-d-un-site-de-notation-de-livres.git",
+    "pictures": ["/profil.png"]
+  }
+]

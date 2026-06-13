@@ -1,0 +1,24 @@
+:root{
+    --primary-color : #0c4a6e;
+    --secondary-color: #0284c7;
+    --other-color: #7dd3fc;
+    --bluelight: #f0f9ff;
+    --background:#fbfcfd;
+    --card-surface: #ffffff;
+    --primary-text: #0f172a;
+    --secondary-text:#52525b;
+    --background-section:rgb(243, 243, 243);
+    --border-color: rgba(15,23,42,0.08);
+
+    --font-size-h2: 2em;
+    --font-weight-title: 500;
+    --font-family-title: "Poppins";
+
+    --font-size-text: 1em;
+     --font-weight-text: 500;
+    --font-family-text: "lato";
+
+
+
+
+}

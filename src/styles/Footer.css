@@ -1,0 +1,18 @@
+.footer{
+    height: 20vh;
+    background-color: var(--border-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icon{
+    padding: 0 20px;
+    font-size: 30px;
+    color: var(--primary-color);
+    transition: all 500ms;
+}
+
+.footer-icon:hover{
+    transform: scale(1.1) translateY(-5px);
+}
