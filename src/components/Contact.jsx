@@ -3,8 +3,8 @@ import "../styles/Contact.css"
 
 function Contact(){
     return (
-        <div className="contact" id="contact">
-            <h2 className="contact-title">Démarrons un projet ensemble, n'hésitez pas à me contacter</h2>
+        <section className="contact" id="contact">
+            <h2 className="contact-title">Discutons de votre prochain projet</h2>
             <form action=""  className="contact-form">
                 <label htmlFor="name" className="label">Nom</label>
                 <input id="name" type="text" placeholder="Nom" className="form-input"/>
@@ -17,7 +17,7 @@ function Contact(){
                 <input type="submit" value="ME CONTACTER" name="" id="" className="form-button"/>
 
             </form>
-        </div>
+        </section>
     )
 }
 export default Contact

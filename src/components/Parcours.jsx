@@ -1,19 +1,42 @@
 import '../styles/Parcours.css'
-import { useState } from 'react'
+import { useState, useEffect, useRef} from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGraduationCap} from '@fortawesome/free-solid-svg-icons';
 
+
 function Parcours(){
 
-     const [step, setStep] = useState(0)
+    const ref = useRef(null);
+      const [visible, setVisible] = useState(false);
+      const [step, setStep] = useState(0);
+    
+      useEffect(() => {
+        const observer = new IntersectionObserver(
+          ([entry]) => {
+            setVisible(entry.isIntersecting);
+          },
+          {
+            threshold: 0.5,
+            
+          }
+        );
+    
+        if (ref.current) {
+          observer.observe(ref.current);
+        }
+    
+        return () => observer.disconnect();
+      }, []);
+    
+    
 
     return (
-        <section className="parcours" id='parcours'>
+        <section className="parcours" id='parcours' ref={ref}>
                <h2 className="parcours-title">Mon Parcours</h2>
-               <p className="parcours-text">Fort d’un parcours mêlant sciences du sport et développement web, j’apporte une approche méthodique, collaborative et tournée vers la performance dans chacun de mes projets numériques.</p>
+               <p className="parcours-text">Mon évolution vers le métier de développeur Web</p>
 
         <div className='parcours-container'>
-               <div className="parcours-container_1" onMouseEnter={() => setStep(1)}>
+               <div className={`parcours-container_1 ${visible ? "show" : ""}`} onMouseEnter={() => setStep(1)}>
                         <FontAwesomeIcon icon={faGraduationCap}  className='parcours-container_icon'/> 
                             <div className='container'>
                               <h3 className='container_title'>Baccaulérat STI2D - SIN<span> (2014)</span></h3>
@@ -22,7 +45,7 @@ function Parcours(){
                             </div>
                </div>
 
-               <div className="parcours-container_2" onMouseEnter={() => setStep(2)}>   
+               <div className={`parcours-container_2 ${visible ? "show" : ""}`}onMouseEnter={() => setStep(2)}>   
                         <FontAwesomeIcon icon={faGraduationCap} className='parcours-container_icon' />    
                             <div className='container'>
                               <h3 className='container_title'>Licence STAPS<br></br><span> (2018)</span></h3>
@@ -31,7 +54,7 @@ function Parcours(){
                             </div>           
                </div>
 
-               <div className="parcours-container_3" onMouseEnter={() => setStep(3)}>  
+               <div className={`parcours-container_3 ${visible ? "show" : ""}`} onMouseEnter={() => setStep(3)}>  
                         <FontAwesomeIcon icon={faGraduationCap} className='parcours-container_icon'/> 
                             <div className='container'>
                               <h3 className='container_title'>Certification Développeur Web<br></br><span> (2026)</span></h3>

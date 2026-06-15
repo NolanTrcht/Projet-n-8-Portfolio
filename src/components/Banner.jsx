@@ -2,7 +2,7 @@ import "../styles/Banner.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBriefcase, faArrowTrendUp} from '@fortawesome/free-solid-svg-icons';
 import avatar from '/profil.png'
-import nolan from '../assets/portrait1.png'
+import nolan from '../assets/portrait1.jpg'
 
 function Banner (){
     const words = ["Développeur","Passionné","Travailleur"];
@@ -12,7 +12,7 @@ function Banner (){
 
 
     return(
-    <div className="banner">
+    <header className="banner">
         
         <div className="banner-branding">
             <h1>Nolan TRANCHANT</h1>
@@ -25,18 +25,15 @@ Continue d'apprendre,<br></br> le meilleur code est celui que tu écriras demain
             </div>
         </div>
 
-            <div className="banner-sentences">
-                <h2 className="banner-sentences_title">Je suis un<span className="banner-sentences_span"></span> </h2>
-                
-            </div>
+        
         
         <div className="banner-img">
-            <img src={nolan} alt="" className="banner-img_portrait" />
+            <img src={nolan} alt="Nolan Tranchant" className="banner-img_portrait" />
         </div>
 
 
 
-    </div>
+    </header>
 
     )
 }

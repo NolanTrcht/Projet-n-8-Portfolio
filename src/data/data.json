@@ -1,26 +1,19 @@
 [
   {
     "id" : "0",
-    "title": "Création d'un site de location immobilière",
+    "title": "Kasa - Application de location immobilière",
     "skills": ["React"],
-    "description": "Grâce à React, créer un site de location permettant de visualiser et d'accéder à toutes les informations concernant les logements",
+    "description": ["Kasa est une application web développée avec React permettant de consulter des offres de location immobilière.", "Ce projet m'a permis de mettre en pratique la création d'interfaces dynamiques, la gestion des composants réutilisables ainsi que la navigation entre les différentes pages grâce à React Router. L'application propose notamment l'affichage détaillé des logements, la gestion des routes dynamiques, des composants interactifs tels que les galeries d'images et les menus déroulants, ainsi qu'une expérience utilisateur fluide et responsive.", "À travers ce projet, j'ai renforcé mes compétences en React, en architecture de composants, en gestion du routage et en intégration d'interfaces modernes avec HTML, CSS et JavaScript."], 
     "github": "https://github.com/NolanTrcht/Projet-n-5-Creez-une-application-web-de-location-immobiliere-avec-React.git",
     "pictures": ["/React.jpg"]
   },
-  {
-    "id" : "1",
-    "title": "Creez une page web dynamique",
-    "skills": ["Javascript"],
-    "description": "Récupérer les données utilisateurs dans le JavaScript via des formulaires. Gérer les événements utilisateurs et manipuler les éléments du DOM avec JavaScript",
-    "github": "https://github.com/NolanTrcht/Projet-n-3-Creez-une-page-web-dynamique-avec-Javascript.git",
-    "pictures": ["/profil.png"]
-  },
+
   {
     "id" : "2",
-    "title": "Développez le backend d'un site de notation de livre",
-    "skills": ["MongoDB", "Node.js", "Mongoose"],
-    "description": "Implémenter un modèle logique de données conformément à la réglementation. Mettre en œuvre des opérations CRUD ainsi que stocker des données de manière sécurisée",
+    "title": "Mon Vieux Grimoire – Plateforme de notation de livres",
+    "skills": ["MongoDB", "Node.js", "Mongoose", "Express.js", "API REST"],
+    "description": ["Mon Vieux Grimoire est une application web permettant aux utilisateurs de consulter, ajouter et noter des livres.", "Ce projet m'a permis de découvrir le développement backend et la gestion d'une base de données à travers la création d'une API sécurisée et performante. L'application offre la possibilité de gérer un catalogue de livres, d'attribuer des notes, de calculer automatiquement les moyennes et d'assurer la gestion des données utilisateurs. Une attention particulière a été portée à la sécurité, à la validation des données et à l'optimisation des requêtes vers la base de données.", "Ce projet m'a permis de renforcer mes compétences en développement backend, en conception d'API REST et en gestion de bases de données NoSQL."],
     "github": "https://github.com/NolanTrcht/Projet-n-6-Developpez-le-backend-d-un-site-de-notation-de-livres.git",
-    "pictures": ["/profil.png"]
+    "pictures": ["/Mongo.jpg"]
   }
 ]

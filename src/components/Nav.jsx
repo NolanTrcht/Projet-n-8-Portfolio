@@ -15,7 +15,7 @@ const [isOpen, setIsOpen] = useState(true);
 return (
   <nav className={isOpen ? "Nav" : "Nav active"}>
     <div className="Nav-logo">
-        <img src={avatar} className="Nav-logo_img" />
+        <img src={avatar} className="Nav-logo_img" alt="avatar"/>
     </div>
     <ul className={isOpen ? "Nav-all_li" : "Nav-all_li active"}>
       <li className="Nav-li"><a href="#projets">Projets</a></li>
@@ -25,7 +25,7 @@ return (
      </ul>
 
     <div className="Nav-contact">
-      <button className="Nav-contact_link" href="#"><FontAwesomeIcon icon={faPhone} className="Nav-contact_phone"/></button>
+      <a className="Nav-contact_link" href="#contact"><FontAwesomeIcon icon={faPhone} className="Nav-contact_phone"/></a>
       <FontAwesomeIcon icon={faBars} className={isOpen ? "Nav-contact_menumobile" : "Nav-contact_menumobile active"} onClick={() => setIsOpen(!isOpen)}/>
       <FontAwesomeIcon icon={faXmark} className={isOpen ? "Nav-contact_cross" : "Nav-contact_cross active"} onClick={() => setIsOpen(!isOpen)}/>
     </div>

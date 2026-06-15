@@ -1,9 +1,9 @@
 import '../styles/Skill.css'
-import logoreact from '../assets/React_logo.png'
-import logohtml from '../assets/html.png'
-import logocss from '../assets/css.png'
-import logojs from '../assets/js.png'
-import logonode from '../assets/nodejs.png'
+import logoreact from '../assets/React_logo.jpg'
+import logohtml from '../assets/html.jpg'
+import logocss from '../assets/css.jpg'
+import logojs from '../assets/js.jpg'
+import logonode from '../assets/nodejs.jpg'
 import { useEffect, useRef, useState } from "react";
 
 
@@ -32,9 +32,9 @@ function Skill(){
 
 
     return(
-        <div className="skills-container" id='skills' ref={ref}>
+        <section className="skills-container" id='skills' ref={ref}>
             <h1 className="skills-title">Mes Compétences</h1>
-            <p className="skills-text">Quelles sont mes languages préférentielles</p>
+            <p className="skills-text">Les technologies que je maîtrise et utilise régulièrement</p>
         <div className="skills-progress_div">
 
         <div className="skills-progress_barre">
@@ -67,7 +67,7 @@ function Skill(){
             <p className="skills-progress_text">60%</p>
         </div>
      </div>
-    </div>
+    </section>
     )
 }
 
