@@ -2,7 +2,7 @@ import "../styles/Banner.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBriefcase, faArrowTrendUp} from '@fortawesome/free-solid-svg-icons';
 import avatar from '/profil.png'
-import nolan from '../assets/portrait1.jpg'
+import nolan from '/portrait1.jpg'
 
 function Banner (){
     const words = ["Développeur","Passionné","Travailleur"];
