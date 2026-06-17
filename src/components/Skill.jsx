@@ -1,9 +1,9 @@
 import '../styles/Skill.css'
-import logoreact from '../assets/React_logo.jpg'
-import logohtml from '../assets/html.jpg'
-import logocss from '../assets/css.jpg'
-import logojs from '../assets/js.jpg'
-import logonode from '../assets/nodejs.jpg'
+import logoreact from '/React_logo.jpg'
+import logohtml from '/html.jpg'
+import logocss from '/css.jpg'
+import logojs from '/js.jpg'
+import logonode from '/nodejs.jpg'
 import { useEffect, useRef, useState } from "react";
 
 
