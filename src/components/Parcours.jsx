@@ -14,9 +14,10 @@ function Parcours(){
         const observer = new IntersectionObserver(
           ([entry]) => {
             setVisible(entry.isIntersecting);
+            
           },
           {
-            threshold: 0.5,
+            threshold: 0.2,
             
           }
         );

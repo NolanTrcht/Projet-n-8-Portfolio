@@ -9,7 +9,7 @@ function Projets() {
             <p className="project-text">Des projets concrets pour mettre en pratique mes compétences.</p>
             <div className="project-cards">
                 {data.map((item) => (
-                    <a key={item.id} href={item.github} className="card">
+                    <a key={item.id} href={item.github} className="card" target="_blank">
                         <div className="card-image" key={item.id}>
                             <img  src={item.pictures[0]} alt={item.title}/>
                         </div>

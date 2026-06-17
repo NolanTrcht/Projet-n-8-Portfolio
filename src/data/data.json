@@ -2,7 +2,7 @@
   {
     "id" : "0",
     "title": "Kasa - Application de location immobilière",
-    "skills": ["React"],
+    "skills": ["React", "HTML", "CSS"],
     "description": ["Kasa est une application web développée avec React permettant de consulter des offres de location immobilière.", "Ce projet m'a permis de mettre en pratique la création d'interfaces dynamiques, la gestion des composants réutilisables ainsi que la navigation entre les différentes pages grâce à React Router. L'application propose notamment l'affichage détaillé des logements, la gestion des routes dynamiques, des composants interactifs tels que les galeries d'images et les menus déroulants, ainsi qu'une expérience utilisateur fluide et responsive.", "À travers ce projet, j'ai renforcé mes compétences en React, en architecture de composants, en gestion du routage et en intégration d'interfaces modernes avec HTML, CSS et JavaScript."], 
     "github": "https://github.com/NolanTrcht/Projet-n-5-Creez-une-application-web-de-location-immobiliere-avec-React.git",
     "pictures": ["/React.jpg"]
