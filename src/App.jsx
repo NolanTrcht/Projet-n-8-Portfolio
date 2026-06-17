@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import '../src/styles/App.css'
-import Nav from "./Components/Nav.jsx"
-import Banner from "./Components/Banner.jsx"
+import Nav from "./components/Nav.jsx"
+import Banner from "./components/Banner.jsx"
 import Projets from "./components/Projets.jsx"
 import Skill from "./components/Skill.jsx"
 import Parcours from "./components/Parcours.jsx"
