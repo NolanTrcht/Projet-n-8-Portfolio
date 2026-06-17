@@ -93,13 +93,13 @@
   flex-direction: row;
   align-items: center;
   background-color: rgb(247, 247, 247);
-   transition: all 1s;
+   transition: opacity 1s, transform 300ms;
 }
 
 .parcours-container_1.show,
 .parcours-container_2.show,
 .parcours-container_3.show {
-  opacity: 1 !important;
+  opacity: 1 ;
 }
 
 .parcours-container > div:hover {
