@@ -18,10 +18,10 @@ return (
         <img src={avatar} className="Nav-logo_img" alt="avatar"/>
     </div>
     <ul className={isOpen ? "Nav-all_li" : "Nav-all_li active"}>
-      <li className="Nav-li"><a href="#projets">Projets</a></li>
-      <li className="Nav-li"><a href="#skills">Compétences</a></li>
-      <li className="Nav-li"><a href="#parcours">Parcours</a></li>
-      <li className="Nav-li"><a href="#contact">Contact</a></li>
+      <li className="Nav-li"><a href="#projets" onClick={() => setIsOpen(!isOpen)}>Projets</a></li>
+      <li className="Nav-li"><a href="#skills" onClick={() => setIsOpen(!isOpen)}>Compétences</a></li>
+      <li className="Nav-li"><a href="#parcours" onClick={() => setIsOpen(!isOpen)}>Parcours</a></li>
+      <li className="Nav-li"><a href="#contact" onClick={() => setIsOpen(!isOpen)}>Contact</a></li>
      </ul>
 
     <div className="Nav-contact">

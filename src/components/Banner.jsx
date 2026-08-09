@@ -16,8 +16,7 @@ function Banner (){
         
         <div className="banner-branding">
             <h1>Nolan TRANCHANT</h1>
-            <p>"Derrière chaque projet réussi se cache une curiosité sans limite.
-<br></br>Continue d'apprendre, le meilleur code est celui que tu écriras demain."</p>
+            <p>"Derrière chaque projet réussi se cache une curiosité sans limite.</p>
 
             <div className="banner-button">
                   <a className="banner-button_skills" href="#projets">Projets<FontAwesomeIcon icon={faBriefcase} className="banner-button_icon" /></a>
