@@ -15,7 +15,7 @@ function Banner (){
     <header className="banner">
         
         <div className="banner-branding">
-            <h1>Nolan TRANCHANT</h1>
+            <h1>Bonjour, je suis<br></br><span>Nolan Tranchant</span></h1>
             <p>"Derrière chaque projet réussi se cache une curiosité sans limite.</p>
 
             <div className="banner-button">
